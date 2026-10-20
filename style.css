@@ -1,23 +1,23 @@
+/* Pengaturan dasar untuk seluruh halaman web */
 body {
-  background-color: #00ffff;/
-  font-family: Arial, sans-serif; /*mudah dibaca */
-  color:ffa500;/
+  background-color: #00ffff; /* Warna latar belakang halaman (Cyan) */
+  font-family: Arial, sans-serif; /* Jenis huruf agar mudah dibaca */
+  color: #ffa500; /* Warna teks default */
 }
 
+/* Desain untuk kotak kartu profil */
 .kartu-profil {
-  width: 300px;
-  margin: 50px auto;
-padding: 20px
-  background-color:white;
-  border-radius:15px
-  box-shadow:0 4px 8px rgba(0,0,0,0,1);
+  width: 300px; /* Lebar kartu */
+  margin: 50px auto; /* Posisi berada di tengah halaman */
+  padding: 20px; /* Jarak ruang di dalam kartu */
+  background-color: white; /* Warna latar belakang kartu putih */
+  border-radius: 15px; /* Membuat sudut kartu melengkung halus */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Memberikan efek bayangan lembut */
+  text-align: center; /* Mengatur agar semua teks berada di tengah */
 }
-|
 
+/* Desain khusus untuk gambar di dalam kartu profil */
 .kartu-profil img {
-  width:150px
-  border-radius:50%;
+  width: 150px; /* Ukuran lebar foto */
+  border-radius: 50%; /* Membuat foto berbentuk lingkaran */
 }
-.kartu-profil {
-  /* ... (kode dari slide sebelumnya) ... */
-text-align: center;
