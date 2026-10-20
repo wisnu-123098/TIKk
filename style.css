@@ -17,6 +17,8 @@ padding: 20px
 .kartu-profil img {
   width:50px
   border-radius:20%;
+  margin:50px
+  padding: 20px
 }
 .kartu-profil {
   /* ... (kode dari slide sebelumnya) ... */
