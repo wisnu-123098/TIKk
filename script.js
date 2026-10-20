@@ -1,4 +1,8 @@
+// 1. Mengambil elemen tombol berdasarkan ID 'sapaButton' dari file HTML
 const tombolSapa = document.getElementById('sapaButton');
-tombolSapa.addEventlistener('click',function() {
-  alert('halo! terima kasih sudah berkunjung!');
+
+// 2. Menambahkan fungsi 'klik' pada tombol tersebut
+tombolSapa.addEventListener('click', function() {
+  // Menampilkan kotak dialog (alert) ketika tombol diklik oleh pengguna
+  alert('Halo! Terima kasih sudah berkunjung!');
 });
